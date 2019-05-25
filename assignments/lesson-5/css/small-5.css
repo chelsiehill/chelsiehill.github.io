@@ -62,6 +62,6 @@ header img {
 picture {
     width: 75px;
     height: auto;
-    float: left;
+    float: right;
     box-shadow: 0 4px 8px 0 #000;
 }
