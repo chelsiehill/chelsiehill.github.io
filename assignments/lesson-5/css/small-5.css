@@ -71,5 +71,6 @@ picture {
     width: 75px;
     height: auto;
     float: right;
+    margin: 0;
     box-shadow: 0 4px 8px 0 #000;
 }
