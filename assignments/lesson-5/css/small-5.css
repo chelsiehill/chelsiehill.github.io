@@ -47,3 +47,14 @@ header img {
     font-style: italic;
 
 }
+
+.hero {
+
+}
+.main-article {
+    background-color: #8f7f74;
+    color: #ffffff;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
