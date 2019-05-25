@@ -46,4 +46,8 @@
         max-width: 100%;
     }
 
+    .main-article {
+        max-width: 75%;
+    }
+
 }
