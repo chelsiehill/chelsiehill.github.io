@@ -58,3 +58,9 @@ header img {
     border-color: black;
     border-width: 1px;
 }
+
+picture {
+    width: 75px;
+    height: auto;
+    float: left;
+}
