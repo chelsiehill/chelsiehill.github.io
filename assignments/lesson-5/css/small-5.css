@@ -46,19 +46,6 @@ header {
     
 }
 
-header img {
-    width: 75px;
-    height: auto;
-    vertical-align: middle;
-    float: left;
-}
-
-.headertext {
-    margin-left: .5rem;
-    display: inline-block;
-    vertical-align: middle;
-
-}
 
 .motto {
     font-size: .9rem;
