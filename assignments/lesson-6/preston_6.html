@@ -24,8 +24,9 @@
             <div class="motto">"Keeping you up to date in the beautiful gem state!"</div>
         </section>
     </header>
-    <nav>
-        <ul>
+    <button &#9776; onclick="toggleMenu()"></button>
+           <nav>
+        <ul id="sally" class="hide">
             <li><a href="#">Home</a></li>
             <li><a href="#" class="active">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
@@ -34,10 +35,15 @@
             <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
+    
     <main>
         <h1>Preston Idaho</h1>
         <div class="herodiv">
-		<img class="weatherimage" src="images/weatherimage.jpg" alt="weather header">
+        <img srcset= "images/hero-small.jpg 400w,
+        images/hero-small.jpg 900w"
+        sizes="(max-width: 320px)280px,
+        (max-width: 480px) 400px, 800px"
+        class="weatherimage" src="images/weatherimage.jpg" alt="weather header">
 		<section class="stats">
 			<h3>Weather Summary</h3>
 			<p>Currently: <span id="value1">Sunny</span></p>

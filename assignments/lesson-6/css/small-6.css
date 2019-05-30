@@ -17,7 +17,12 @@ nav {
     color: #ffffff;
  
 }
-
+nav button {
+    margin: .2rem 2%;
+    background-color: #40302c;
+    font-size: 1.6rem;
+    color: #ffffff;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -34,8 +39,17 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: .8rem, 2%;
     text-decoration: none;
+    border-top: 1px solid rgba(0,0,0,0.2);
+  }
+
+  .active {
+    background-color: #e0922e;
+    font-weight: bold;
+  }
+  nav ul .hide{
+      display: none;
   }
   
   /* Change the link color on hover */
@@ -43,10 +57,7 @@ ul {
     background-color: #7d593e;
   }
 
-  .active {
-    background-color: #e0922e;
-    font-weight: bold;
-  }
+
 
 h1 {
     font-size: 32px;
@@ -89,7 +100,7 @@ header {
 
 
 .motto {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #e0922e;
     font-style: italic;
     font-family: 'Montserrat', sans-serif;
@@ -127,7 +138,7 @@ aside {
         background-color: #ffffff;
         border: 1px solid #000000;
         }
-        
+
 .weatherimage {
     width: 100%;
     height: auto;
