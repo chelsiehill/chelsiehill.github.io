@@ -8,6 +8,16 @@
         align-content: center;
     }
 
+    .navigation li:first-child { 
+        display: none;	
+    }
+    .navigation li { 
+        display: inline-block; 
+        margin-right: 1rem;
+    }	
+          
+    .navigation li a { color: yellow;}
+
     nav ul li a {
         padding: 6rem 1 rem;
     }
@@ -22,3 +32,4 @@
     .forecasttable {
         display:block;
     }
+   
