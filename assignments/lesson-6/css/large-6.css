@@ -10,16 +10,30 @@
 
     .navigation li:first-child { 
         display: none;	
+        padding: 1rem;
     }
+   
+    
     .navigation li { 
         display: inline-block; 
         margin-right: 1rem;
+        padding: .7rem;
+        
     }	
           
-    .navigation li a { color: yellow;}
+    .navigation li a { color: #ffffff;
+    
+    }
+
+    li a:hover {
+        color: #f7d593e;
+        background-color: #ffffff;
+      }
+
 
     nav ul li a {
         padding: 6rem 1 rem;
+        
     }
 
     h1 {
@@ -33,3 +47,4 @@
         display:block;
     }
    
+}
