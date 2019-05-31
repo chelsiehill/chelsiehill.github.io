@@ -12,8 +12,6 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300%7cSlabo+27px&display=swap" rel="stylesheet">
     <link href="css/small-6.css" rel="stylesheet">
     <link href="css/large-6.css" rel="stylesheet">
-    
-
 
 </head>
 
@@ -25,9 +23,9 @@
             <div class="motto">"Keeping you up to date in the beautiful gem state!"</div>
         </section>
     </header>
-               <nav>
-        <ul class="navigation">
-                <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+    <nav>
+        <ul class="navigation responsive">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="#">Home</a></li>
             <li><a href="#" class="active">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
@@ -36,59 +34,62 @@
             <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
-    
+
+
     <main>
-        <h1>Preston Idaho</h1>
+        <h2>Preston Idaho</h2>
         <div class="herodiv">
-        <img srcset= "images/hero-small.jpg 400w,
-        images/hero-small.jpg 900w"
-        sizes="(max-width: 320px)280px,
-        (max-width: 480px) 400px, 800px"
-        class="weatherimage" src="images/weatherimage.jpg" alt="weather header">
-		<section class="stats">
-			<h3>Weather Summary</h3>
-			<p>Currently: <span id="value1">Sunny</span></p>
-			<p>High: 76</p>
-			<p>Wind Chill: 68</p>
-				<p>Humidity: 60%</p>
-				<p>Wind Speed: 5 mph</p>
-		</section>
-	</div>
-<div class="forecasttable">
-        <h2>5 Day Forecast</h2>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Sat</th>
-                    <th>Sun</th>
-                    <th>Mon</th>
-                    <th>Tues</th>
-                    <th>Wed</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 72&deg;F
-                    </td>
-                    <td>
-                        <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 77&deg;F </td>
-                    <td>
-                        <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 74&deg;F </td>
-                    <td>
-                        <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 73&deg;F
-                    </td>
-                    <td>
-                        <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 68&deg;F
-                    </td>
+            <picture>
+                <source media="(max-width: 799px)" srcset="images/hero-small.jpg">
+                <source media="(min-width: 800px)" srcset="images/hero-large.jpg">
+                <img src="images/hero-large.jpg" alt="Preston Weather Image">
+            </picture>
+            <section class="stats">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="value1">Sunny</span></p>
+                <p>High: 76</p>
+                <p>Wind Chill: 68</p>
+                <p>Humidity: 60%</p>
+                <p>Wind Speed: 5 mph</p>
+            </section>
+        </div>
+        <div class="forecasttable">
+            <h3>5 Day Forecast</h3>
 
-                </tr>
-        </table>
-    </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tues</th>
+                        <th>Wed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 72&deg;F
+                        </td>
+                        <td>
+                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 77&deg;F </td>
+                        <td>
+                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 74&deg;F </td>
+                        <td>
+                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 73&deg;F
+                        </td>
+                        <td>
+                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 68&deg;F
+                        </td>
+
+                    </tr>
+            </table>
+        </div>
+        <br>
         <article>
             <section class="main-article">
-                <h3>Article Title</h3>
+                <h4>Article Title</h4>
                 <div class="acc">by AUTHOR NAME</div>
 
 
@@ -98,6 +99,9 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum dolore eu fugiat nulla pariatur.</p>
 
 
@@ -105,13 +109,13 @@
         </article>
     </main>
     <aside>
-            <section class="contactinfo">
-                
-                <picture>
-                        <img class="contact-map" src="images/contact-map.jpg" alt="Map of Preston">
-                    <img class="smallicon" src="images/location-pin.png" alt="location pointer">
-                </picture>
-                <strong>Gem State Weather</strong>
+        <section class="contactinfo">
+
+            <picture>
+                <img class="contact-map" src="images/contact-map.jpg" alt="Map of Preston">
+                <img class="smallicon" src="images/location-pin.png" alt="location pointer">
+            </picture>
+            <strong>Gem State Weather</strong>
             <br>&nbsp;30 N 1st E
             <br> Preston, ID 83263
             <br>
@@ -122,20 +126,24 @@
             <img class="smallicon" src="images/pinterest.png" alt="pinterest link">
             <img class="smallicon" src="images/twitter.png" alt="twitter link">
             <img class="smallicon" src="images/whatsapp.jpg" alt="whatsapp link">
-            
 
 
-            </section>
-        </aside>
+
+        </section>
+    </aside>
 
 
 
     <footer>
         <p>&copy; 2019 The Weather Site | Attributions | Chelsie Hill</p>
-        <p>Saturday, 25 May 2019</p>
+        <script src="scripts/currentdate.js"></script>
+
 
     </footer>
-    <script>src="scripts/hamburger.js"</script>
+
+    <script src="scripts/hamburger.js"></script>
+
+
 </body>
 
 </html>
