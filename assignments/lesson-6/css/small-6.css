@@ -48,7 +48,11 @@ nav {
 .active {
     background-color: #e0922e;
     font-weight: bold;
+    width: 100%;
   }
+ul {
+    padding: 0px;
+}
 
 
 
