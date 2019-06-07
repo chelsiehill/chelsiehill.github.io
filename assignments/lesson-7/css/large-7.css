@@ -23,13 +23,23 @@
   
   .wrapper {
      display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-columns: 300px 300px 300px;
+     padding: 10px;
+     grid-auto-rows: 300px;
   }
 
-  .wrapper figure:hover {
+figure:hover {
       box-shadow: 0 0 50px #333;
 
   }
+
+figure {
+    border: 1px solid #7d593e;
+    padding: 20px;
+
+    
+}
+ 
 
 
   

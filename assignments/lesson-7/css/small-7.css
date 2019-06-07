@@ -132,10 +132,12 @@ main {
      display: grid;
      grid-template-columns: 1fr;
   }
+
   
 figure {
-        margin: 0;
-    }
+    font-size: .75rem;
+    color: #000000;
+}
 
 figcaption {
     font-size: .75rem;
