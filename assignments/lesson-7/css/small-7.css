@@ -165,7 +165,7 @@ figcaption {
 }
     
 .stats {
-    position: relative;
+    position: absolute;
     top: 25px;
     right: 50px;
     background-color: #eee;
