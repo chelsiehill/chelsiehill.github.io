@@ -10,7 +10,6 @@ body {
 }
 
 
-
 nav {
     font-family: 'Montserrat', sans-serif;
     background-color: #40302c;
@@ -23,6 +22,8 @@ nav {
 .navigation {
     list-style: none; 
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .navigation li:first-child {
     display: block;
@@ -54,6 +55,16 @@ ul {
     padding: 0px;
 }
 
+.container {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: stretch;
+}
+
+.flexItem:first-of-type {
+    align-self: stretch;
+}
 
 
 h1 {
@@ -70,6 +81,7 @@ h2 {
     font-family: 'Slabo 27px', serif;
     font-weight: bold;
     text-align: center;
+    padding: 5px;
 }
 h3 {
     font-size: 24px;
@@ -77,6 +89,7 @@ h3 {
     font-family: 'Slabo 27px', serif;
     font-weight: bold;
     text-align: center;
+    padding:5px;
 }
 h4 {
     font-size: 18px;
@@ -95,6 +108,7 @@ h4 {
     margin: 10px;
 }
 header {
+    display: 
     background-color: #7d593e;
     text-align: center;
     padding: .5rem;
