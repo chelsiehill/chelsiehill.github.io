@@ -65,7 +65,7 @@
     .stats {
         position: absolute;
         top: 25px;
-        left: 25px;
+        right: 25px;
         background-color: #eee;
         border: 1px solid #000;
         padding: .3rem;
