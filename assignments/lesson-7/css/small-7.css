@@ -162,10 +162,12 @@ figcaption {
 .herodiv {
     margin: 10px auto;
     position: relative;
+    top: 25px;
+    right: 25px;
 }
     
 .stats {
-    
+    position: absolute;
     top: 25px;
     right: 25px;
     background-color: #eee;
