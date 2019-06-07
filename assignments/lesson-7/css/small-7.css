@@ -127,6 +127,36 @@ main {
     padding: 5px;
     }
 
+.container {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
+        max-width: 66rem;
+    }
+
+.container > section {
+        background: #fff;
+        padding: .5rem;
+        border: 1px solid #bbb;
+        margin-right: 2px;
+        overflow: auto;
+        /* max-height: 100px; */
+    }
+
+    .container > section img {
+        width: 100%;
+        height: auto;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+figcaption {
+    font-size: .75rem;
+}
+    
+
 
 
 .herodiv {
