@@ -1,4 +1,4 @@
-function toggleMenu (){
-    console.log(document.getElementByID("sally).classlist);
-    document.getElementByID("sally").classList.toggle("hide");
+function toggleMenu() {
+    document.getElementsByClassName("navigation")
+    [0].classList.toggle("responsive");
 }
