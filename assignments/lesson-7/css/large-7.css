@@ -92,7 +92,7 @@ figure {
     }
 
     .stats {
-        position: absolute;
+        position: relative;
         top: 25px;
         left: 25px;
         background-color: #eee;
