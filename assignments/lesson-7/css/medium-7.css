@@ -62,9 +62,12 @@
         
     }
 
-    .navigation li:first-child { display: none;	}
-	.navigation li { display: block; flex: 1 1 auto; }
-	.navigation, .container { flex-direction: row; }
+ .wrapper {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+
 
     h1 {
         font-size: 2.5rem;

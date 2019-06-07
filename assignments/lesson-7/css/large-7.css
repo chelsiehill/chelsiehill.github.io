@@ -20,13 +20,19 @@
         display: inline;
               
     }
+  
+  .wrapper {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+  }
 
-    .navigation li:first-child { display: none;	}
-	.navigation li { display: block; flex: 1 1 auto; }
-    .navigation, .container { flex-direction: row; }
-    
-    .container:hover {box-shadow: 0 0 50px #333;}
+  .wrapper figure:hover {
+      box-shadow: 0 0 50px #333;
 
+  }
+
+
+  
     h1 {
         font-size: 28px;
         color: #000000;
