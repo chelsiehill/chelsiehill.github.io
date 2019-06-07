@@ -26,6 +26,7 @@
      grid-template-columns: 300px 300px 300px;
      padding: 10px;
      grid-auto-rows: 300px;
+     
   }
 
 figure:hover {
@@ -33,11 +34,14 @@ figure:hover {
 
   }
 
+  img {
+      width: 100%;
+  }
+
 figure {
     border: 1px solid #7d593e;
     padding: 20px;
-
-    
+     
 }
  
 
