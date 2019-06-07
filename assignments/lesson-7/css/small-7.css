@@ -127,12 +127,25 @@ main {
     padding: 5px;
     }
 
-  
-  .wrapper {
-     display: grid;
-     grid-template-columns: 1fr;
-  }
 
+  .wrapper {
+    display: grid;
+    grid-template-columns: 300px;
+    padding: 10px;
+    grid-auto-rows: 300px;
+    
+ }
+
+
+ img {
+     width: 100%;
+ }
+
+figure {
+   border: 1px solid #7d593e;
+   padding: 20px;
+    
+}
   
 figure {
     font-size: .75rem;

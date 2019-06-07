@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 45em) {
 
     header img {
         width: 150px;
@@ -62,11 +62,33 @@
         
     }
 
- .wrapper {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-}
-
+    .wrapper {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        padding: 10px;
+        grid-auto-rows: 300px 300px;
+        
+     }
+    
+    
+     img {
+         width: 100%;
+     }
+    
+    figure {
+       border: 1px solid #7d593e;
+       padding: 20px;
+        
+    }
+      
+    figure {
+        font-size: .75rem;
+        color: #000000;
+    }
+    
+    figcaption {
+        font-size: .75rem;
+    }
 
 
     h1 {
