@@ -16,7 +16,7 @@ nav {
     text-align: center;
     color: #ffffff;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 100%
  
 }
 .navigation {
@@ -29,7 +29,9 @@ nav {
     display: block;
 }
 .navigation li { 
-    display: none;}
+    display: none;
+    align-content: center;
+}
 
 .navigation a {	
     display: block;	
@@ -58,12 +60,21 @@ ul {
 .container {
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: center;
 align-items: stretch;
 }
 
-.flexItem:first-of-type {
+.flexItem:second-of-type {
     align-self: stretch;
+    width: 75px;
+    height: auto;
+
+}
+.flexItem:first-of-type {
+    font-size: 1rem;
+    color: #e0922e;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -149,7 +160,9 @@ main {
     grid-auto-rows: 300px;
     
  }
-
+header image {
+    width:150px;
+}
 
  img {
      width: 100%;
@@ -176,30 +189,34 @@ figcaption {
 .herodiv {
     margin: 10px auto;
     position: relative;
-    top: 25px;
-    right: 25px;
+    top: 5px;
+    right: 5px;
+    padding-bottom: 5px;
 }
     
 .stats {
     position: absolute;
     top: 25px;
-    right: 25px;
+  
     background-color: #eee;
     border: 1px solid #000;
-    padding: 1.5rem;
+
     box-shadow: 0 0 30px #fff;
+    margin: 25px;
     }
 
     .details {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap:.25rem;
+        margin: 5px;
     }
 
 .label {
     color: #e0922e;
     font-size: 16px;
     font-weight: bold;
+    text-align: right;
 
 }
 .value {
