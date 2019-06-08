@@ -108,7 +108,7 @@ h4 {
     margin: 10px;
 }
 header {
-    display: 
+    display: flex;
     background-color: #7d593e;
     text-align: center;
     padding: .5rem;
@@ -117,7 +117,7 @@ header {
 }
 
 .logo {
-    display: inline-block;
+    display: flex;
     vertical-align: middle;
     margin: 10px;
     width: 75px;
@@ -190,6 +190,12 @@ figcaption {
     box-shadow: 0 0 30px #fff;
     }
 
+    .details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap:.25rem;
+    }
+
 .label {
     color: #e0922e;
     font-size: 16px;
@@ -229,6 +235,7 @@ article {
     color: #e6a757;
     font-size: 12px;
     margin: 5px;
+    font-weight: bold;
 }
 .main-article {
     display: inline-block;
