@@ -1,5 +1,5 @@
 html {
-    font-family: 'Ubuntu' sans-serif;
+    font-family: 'Ubuntu', sans-serif;
   }
   
   table {
@@ -17,12 +17,13 @@ html {
     padding: 10px 20px;
   }
   
-  th {
-    background-color: rgb(235,235,235);
-  }
   
   td {
     text-align: center;
+  }
+  th {
+    color: white;
+    background-color: #628ca6;
   }
   
   tr:nth-child(even) td {
@@ -33,14 +34,16 @@ html {
     background-color: #e7ffed;
   }
   
-  caption {
-    padding: 10px;
-  }
+ tfoot {
+    background-color: #7fb9c2;
+    color: black;
+
+ }
+ thead {
+    color: #000;
+    background-color: #7fb9c2;
+ }
  
-  h1{
-      color: #000;
-      font-weight: 24px;
-  }
 
   h2 {
       color: #ffffff;
@@ -48,5 +51,12 @@ html {
       font-weight: heavy;
       background-color: #628ca6;
   }
+
+  .header {
+        background-color: #7fb9c2;
+        color: black;
+        font-size: 24px;
+      }
+  
 
  
