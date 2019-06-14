@@ -16,7 +16,7 @@
         font-size: 1rem;
         color: #e0922e;
         font-style: italic;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat' sans-serif;
         display: inline;
               
     }
@@ -24,7 +24,7 @@
     h1 {
         font-size: 28px;
         color: #000000;
-        font-family: 'Slabo 27px', serif;
+        font-family: 'Slabo 27px' serif;
         font-weight: bold;
         text-align: center;
     }
@@ -63,7 +63,7 @@
 
 
     nav ul li a {
-        padding: 6rem 1 rem;
+        padding: 6rem 1rem;
         
     }   
 
