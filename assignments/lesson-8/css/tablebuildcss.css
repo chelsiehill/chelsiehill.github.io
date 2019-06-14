@@ -11,6 +11,27 @@ html {
     box-shadow: 10px 10px 5px #628ca6;
     background-color: #7fb0c2;
     }
+
+      
+  tr:nth-child(even) td {
+    background-color:#e7f0ed;;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: #e7ffed;
+  }
+
+    thead {
+        background-color: #7fb9c2;
+        color: black;
+        font-size: 24px;
+      }
+
+    tfoot {
+        background-color: #7fb9c2;
+        color: black;
+    
+     }
   
   td, th {
     border: 1px solid rgb(190,190,190);
@@ -34,29 +55,7 @@ html {
     background-color: #e7ffed;
   }
   
- tfoot {
-    background-color: #7fb9c2;
-    color: black;
 
- }
- thead {
-    color: #000;
-    background-color: #7fb9c2;
- }
- 
-
-  h2 {
-      color: #ffffff;
-      font-size: 20px;
-      font-weight: heavy;
-      background-color: #628ca6;
-  }
-
-  .header {
-        background-color: #7fb9c2;
-        color: black;
-        font-size: 24px;
-      }
   
 
  
