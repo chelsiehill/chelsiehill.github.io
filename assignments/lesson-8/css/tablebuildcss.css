@@ -13,11 +13,11 @@ html {
     }
 
       
-  tr:nth-child(even) td {
+ tbody tr:nth-child(even) td {
     background-color:#e7f0ed;;
   }
   
-  tr:nth-child(odd) td {
+  tbody tr:nth-child(odd) td {
     background-color: #e7ffed;
   }
 
@@ -30,6 +30,7 @@ html {
     tfoot {
         background-color: #7fb9c2;
         color: black;
+        font-size: 12px;
     
      }
   
