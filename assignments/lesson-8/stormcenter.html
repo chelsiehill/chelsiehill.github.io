@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Gem State Weather Preston Idaho Page</title>
+    <meta charset="UTF-8" />
+    <meta name="description"
+        content="Providing weather reports and articles in Preston, Fish Haven, and Soda Springs Idaho. ">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300%7cSlabo+27px&display=swap" rel="stylesheet">
+    <link href="css/lesson-8.css" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    <h1>Storm Report</h1>
+    <form method="get" action="thankshtml">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label class="top">First Name* <input type="text" name="fname" required></label>
+            <label class="top">Last Name* <input type="text" name="lname" required></label>
+            <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Phone Number* <input type="tel" name="phone" placeholder="1235551234" required></label>
+            <label class="top">Zip Code* <input type="text" name="zip" placeholder="12345" required></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Storm Information
+            </legend>
+            <label class="top">Storm Date <input type="date" name="date" placeholder="00/00/0000"></label>
+
+
+
+            <label class="top">Storm Type
+               <input list="storm-type" name="stormtype"/>
+                 <datalist id="storm-type">
+                    <option value="Flashflood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                 </input>
+                  </datalist>
+         
+
+            <label class="top">Severity<input type="number" name="severity"></label>
+
+            <div>User-in-danger</div>
+            <label class="sbs"><input type="radio" name="danger" value="yes">yes</label>
+            <label class="sbs"><input type="radio" name="danger" value="maybe">maybe</label>
+            <label class="sbs"><input type="radio" name="danger" value="no">no</label>
+
+            <label class="top">Storm Region
+                <select name="region">
+                    <option value="">Please select &#9662;</option>
+                    <option value="Preston">Preston</option>
+                    <option value="SugarCity">Sugar City</option>
+                    <option value="FishHaven">Fish Haven</option>
+                </select>
+            </label>
+
+            <label class="top">Additional information or comments</label><textarea rows="4" cols="50" name="comment" form="usrform">
+                   </textarea>
+
+        </fieldset>
+        <input class="button" type="submit" value="Report Weather">
+
+    </form>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
+
+
+
+PLACE LABELS ABOVE AND LEFT DEFINED
+INPUT 35PX TALL
