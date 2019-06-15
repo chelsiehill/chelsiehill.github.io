@@ -20,14 +20,14 @@
     <form method="get" action="lesson-8/thanks.html">
         <fieldset>
             <legend>Personal Information</legend>
-            <label class="top">First Name* <input type="text" name="fname" required></label>
-            <label class="top">Last Name* <input type="text" name="lname" required></label>
+            <label class="top">Full Name* <input type="text" name="fname" required minlength="5" required></label>
             <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
             <label class="top">Phone Number* <input type="tel" name="phone" placeholder="1235551234" required></label>
             <label class="top">Zip Code* <input type="text" name="zip" placeholder="12345" required></label>
         </fieldset>
 
         <fieldset>
+            <br>
             <legend>
                 Storm Information
             </legend>
@@ -38,13 +38,23 @@
             <label class="top">Storm Type
                <input list="storm-type" name="stormtype"/>
                  <datalist id="storm-type">
-                    <option value="Flashflood"></option>
-                    <option value="Hail"></option>
-                    <option value="Hurricane"></option>
-                    <option value="Thunderstorm"></option>
-                    <option value="Tornado"></option>
+                    <option>Flash flood</option>
+                    <option>Hail</option>
+                    <option>Hurricane</option>
+                    <option>Thunderstorm</option>
+                    <option>Tornado</option>
                  </input>
                   </datalist>
+
+
+                  <datalist id="l1">
+                        <option>Banana</option>
+                        <option>Cherry</option>
+                        <option>Apple</option>
+                        <option>Strawberry</option>
+                        <option>Lemon</option>
+                        <option>Orange</option>
+                      </datalist>
 
 
             
@@ -54,10 +64,9 @@
             <span id="ratingvalue"></span>
 
               
-                
-         <fieldset class="uid">
-            <label>User-in-danger <em>Choose one</em></label\
-                >
+            <fieldset>      
+          <label>User-in-danger <em>Choose one</em></label>
+          <div class="uid">
             <div>
                     <input type="radio" name="danger" value="yes" checked>
                     <label for="yes">yes</label>
@@ -68,6 +77,7 @@
                     </div> <div>
                             <input type="radio" name="danger" value="no" checked>
                             <label for="no">no</label>
+                        </div>
                         </div>
             
                         </fieldset>
@@ -99,5 +109,3 @@
 
 
 
-PLACE LABELS ABOVE AND LEFT DEFINED
-INPUT 35PX TALL
