@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Gem State Weather Preston Idaho Page</title>
+    <meta charset="UTF-8" />
+    <meta name="description"
+        content="Providing weather reports and articles in Preston, Fish Haven, and Soda Springs Idaho. ">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300%7cSlabo+27px&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small-9.css" rel="stylesheet">
+    <link href="css/medium-9.css" rel="stylesheet">
+    <link href="css/large-9.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="container">
+        <img class="flexItem" src="images/logoicon.png" alt="Gem State Weather Icon">
+        <section class="flexItem">
+            <h1>Gem State Weather</h1>
+            <div class="flexItem">"Keeping you up to date in the beautiful gem state!"</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston_9.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-9.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="herodiv">
+
+            <picture>
+                <source media="(max-width: 799px)" srcset="images/weatherimage-small.jpg">
+                <source media="(min-width: 800px)" srcset="images/weatherimage-large.jpg">
+                <img src="images/weatherimage-large.jpg" alt="Preston Weather Image">
+            </picture>
+
+            <section class="stats">
+                <h3>Weather Summary</h3>
+                <div class="details">
+                <div class="label">Currently: </div><div class='value'>Sunny </div>
+                <div class="label">High:</div><div class='value'><span id="temp">76</span>&deg;F</div>
+                <div class="label">Wind Chill:</div><div class='value'><span id="windchill"></span>&deg;F</div>
+                <div class="label">Humidity:</div><div class='value'>68%</div>
+                <div class="label">Wind Speed:</div><div class='value'><span id="windspeed">15</span>mph</div>
+                </div>
+
+            </section>
+        </div>
+        <br>
+        <div class="forecasttable">
+            <h3>5 Day Forecast</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tues</th>
+                        <th>Wed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 72&deg;F
+                        </td>
+                        <td>
+                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 77&deg;F </td>
+                        <td>
+                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 74&deg;F </td>
+                        <td>
+                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 73&deg;F
+                        </td>
+                        <td>
+                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 68&deg;F
+                        </td>
+
+                    </tr>
+            </table>
+        </div>
+        <br>
+        <article>
+            <section class="main-article">
+                <h4>Article Title</h4>
+                <div class="acc">by AUTHOR NAME</div>
+
+
+                <picture>
+                    <img class="article-image" src="images/article-image.jpeg" alt="Man Outdoors">
+                </picture>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+
+            </section>
+        </article>
+    </main>
+    <aside>
+        <section class="contactinfo">
+
+            <div>
+                <img class="contact-map" src="images/contact-map.jpg" alt="Map of Preston">
+                <img class="smallicon" src="images/location-pin.png" alt="location pointer">
+            </div>
+            <strong>Gem State Weather</strong>
+            <br>&nbsp;30 N 1st E
+            <br> Preston, ID 83263
+            <br>
+            <br> &phone; &nbsp; 999.999.9999
+            <br> &#9993; &nbsp; gemstateweather@gsw.com
+            <br><br>
+            <img class="smallicon" src="images/facebook.jpg" alt="facebook link">
+            <img class="smallicon" src="images/pinterest.png" alt="pinterest link">
+            <img class="smallicon" src="images/twitter.png" alt="twitter link">
+            <img class="smallicon" src="images/whatsapp.jpg" alt="whatsapp link">
+
+
+
+        </section>
+    </aside>
+
+
+
+    <footer>
+        <p>&copy; 2019 The Weather Site | Attributions | Chelsie Hill</p>
+        <span id="currentdate"></span>
+
+
+
+    </footer>
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windchill.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Gem State Weather Preston Idaho Page</title>
+    <meta charset="UTF-8" />
+    <meta name="description"
+        content="Providing weather reports and articles in Preston, Fish Haven, and Soda Springs Idaho. ">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300%7cSlabo+27px&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small-9.css" rel="stylesheet">
+    <link href="css/medium-9.css" rel="stylesheet">
+    <link href="css/large-9.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="container">
+        <img class="flexItem" src="images/logoicon.png" alt="Gem State Weather Icon">
+        <section class="flexItem">
+            <h1>Gem State Weather</h1>
+            <div class="flexItem">"Keeping you up to date in the beautiful gem state!"</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="preston_9.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-9.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main>
+
+        <h3>Title</h3>
+        <section class="wrapper">
+            <div>
+                <h4>
+                    <span id="PrestonName">
+
+                    </span>
+                </h4>
+                <p>"<span id="PrestonMotto">
+                    </span>"</p>
+                    <p>Year Founded:
+                        <span id="PrestonYearFounded"></span>
+                    </p>
+                    <p>Current Population:
+                            <span id="PrestonCurrentPopulation"></span>
+                    </p>
+                    <p>Average Rainfall
+                    <span id="PrestonAverageRainFall"></span>
+                    </p>
+                
+                <img src="images/prestonimage.jpg">
+            </div>
+            <div>
+                <h4>
+                    <span id="SodaSpringsName">
+
+                    </span>
+                    </h4>
+                    <p>"<span id="SodaSpringsMotto">"
+                    </span>
+                </p>
+                <p>Year Founded:
+                        <span id="SodaSpringsYearFounded"></span>
+                    </p>
+                    <p>Current Population:
+                            <span id="SodaSpringsCurrentPopulation"></span>
+                    </p>
+                    <p>Average Rainfall
+                    <span id="SodaSpringsAverageRainFall"></span>
+                    </p>
+                <img src="images/sodaspringsimage.jpg">
+            </div>
+            <div>
+                <h4>
+                    <span id="FishHavenName">
+
+                    </span>
+                    </h4>
+                    <p>"<span id="FishHavenMotto">"
+                    </span>
+                </p>
+                <p>Year Founded:
+                        <span id="FishHavenYearFounded"></span>
+                    </p>
+                    <p>Current Population:
+                            <span id="FishHavenCurrentPopulation"></span>
+                    </p>
+                    <p>Average Rainfall
+                    <span id="FishHavenAverageRainFall"></span>
+                    </p>
+                <img src="images/fishhavenimage.jpg">
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+
+
+    <footer>
+        <p>&copy; 2019 The Weather Site | Attributions | Chelsie Hill | <span id="currentdate"></span></p>
+
+
+
+
+
+
+
+    </footer>
+    <script src="scripts/json.js"></script>
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+
+
+
+</body>
+
+</html>
