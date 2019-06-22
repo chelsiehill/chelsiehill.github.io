@@ -18,7 +18,7 @@
 
 <body>
     <header class="container">
-        <img class="flexItem" src="images/logoicon.png" alt="Gem State Weather Icon">
+        <img id="logoimage" class="flexItem" src="images/logoicon.png" alt="Gem State Weather Icon">
         <section class="flexItem">
             <h1>Gem State Weather</h1>
             <div class="flexItem">"Keeping you up to date in the beautiful gem state!"</div>
@@ -39,68 +39,74 @@
 
 
     <main>
-
-        <h3>Title</h3>
-        <section class="wrapper">
-            <div>
-                <h4>
+        <section class="townwrapper">
+            <div class="towncontainer">
+                <div>
+                <h3>
                     <span id="PrestonName">
 
                     </span>
-                </h4>
+                </h3>
                 <p>"<span id="PrestonMotto">
                     </span>"</p>
-                    <p>Year Founded:
+                    <p><strong>Year Founded:</strong>
                         <span id="PrestonYearFounded"></span>
                     </p>
-                    <p>Current Population:
+                    <p><strong>Current Population:</strong>
                             <span id="PrestonCurrentPopulation"></span>
                     </p>
-                    <p>Average Rainfall
+                    <p><strong>Average Rainfall:</strong>
                     <span id="PrestonAverageRainFall"></span>
                     </p>
-                
-                <img src="images/prestonimage.jpg">
+                <br>
+                </div>
+                <img src="images/prestonimage.jpg" alt="Preston Idaho outdoor image">
             </div>
-            <div>
-                <h4>
+            <div class="towncontainer">
+                <div>
+                <h3>
                     <span id="SodaSpringsName">
 
                     </span>
-                    </h4>
+                    </h3>
                     <p>"<span id="SodaSpringsMotto">"
                     </span>
                 </p>
-                <p>Year Founded:
+                                <p><strong>Year Founded:</strong>
                         <span id="SodaSpringsYearFounded"></span>
                     </p>
-                    <p>Current Population:
+                    <p><strong>Current Population:</strong>
                             <span id="SodaSpringsCurrentPopulation"></span>
                     </p>
-                    <p>Average Rainfall
+                    <p><strong>Average Rainfall:</strong>
                     <span id="SodaSpringsAverageRainFall"></span>
                     </p>
-                <img src="images/sodaspringsimage.jpg">
+                    <br>
+                    </div>
+                <img src="images/sodaspringsimage.jpg" alt="Soda Springs idaho outdoor image">
             </div>
-            <div>
-                <h4>
+            <div class="towncontainer">
+                <div>
+                <h3>
                     <span id="FishHavenName">
 
                     </span>
-                    </h4>
+                    </h3>
                     <p>"<span id="FishHavenMotto">"
                     </span>
                 </p>
-                <p>Year Founded:
+                <p><strong>Year Founded:</strong>
                         <span id="FishHavenYearFounded"></span>
                     </p>
-                    <p>Current Population:
+                    <p><strong>Current Population:</strong>
                             <span id="FishHavenCurrentPopulation"></span>
                     </p>
-                    <p>Average Rainfall
+                    <p><strong>Average Rainfall:</strong>
                     <span id="FishHavenAverageRainFall"></span>
                     </p>
-                <img src="images/fishhavenimage.jpg">
+                    <br>
+                    </div>
+                <img src="images/fishhavenimage.jpg" alt="Fish Haven Idaho outdoor image">
             </div>
         </section>
 
@@ -112,17 +118,11 @@
 
 
     <footer>
-        <p>&copy; 2019 The Weather Site | Attributions | Chelsie Hill | <span id="currentdate"></span></p>
-
-
-
-
-
-
-
-    </footer>
+      
+            <p>&copy; 2019 The Weather Site | Attributions | Chelsie Hill | <span id="currentdate"></span></p>
+            
+</footer>
     <script src="scripts/json.js"></script>
-
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
 

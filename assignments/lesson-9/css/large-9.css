@@ -28,6 +28,22 @@
      grid-auto-rows: 300px 300px 300px;
      
   }
+   
+  .townwrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    grid-auto-rows: 1fr 1fr 1fr;
+    
+    
+ }
+ .towncontainer {
+     display: block;
+ }
+ .towncontainer div {
+     width: auto;
+     height: 200px;
+ }
 
 figure:hover {
       box-shadow: 0 0 50px #333;

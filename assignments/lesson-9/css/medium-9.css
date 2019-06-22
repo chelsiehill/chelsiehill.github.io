@@ -97,6 +97,14 @@
         grid-auto-rows: 300px 300px;
         
      }
+     .towncontainer {
+         display: flex;
+         flex-direction: row;
+
+     }
+     .towncontainer div {
+         width: 50%;
+     }
     
     
      img {
