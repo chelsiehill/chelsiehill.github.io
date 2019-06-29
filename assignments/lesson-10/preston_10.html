@@ -50,11 +50,16 @@
             <section class="stats">
                 <h3>Weather Summary</h3>
                 <div class="details">
-                <div class="label">Currently: </div><div class='value'>Sunny </div>
-                <div class="label">High:</div><div class='value'><span id="temp">76</span>&deg;F</div>
-                <div class="label">Wind Chill:</div><div class='value'><span id="windchill"></span>&deg;F</div>
-                <div class="label">Humidity:</div><div class='value'>68%</div>
-                <div class="label">Wind Speed:</div><div class='value'><span id="windspeed">15</span>mph</div>
+                    <div class="label">Currently: </div>
+                    <div class='value'><span id="currently"></span></div>
+                    <div class="label">High:</div>
+                    <div class='value'><span id="temp">76</span>&deg;F</div>
+                    <div class="label">Wind Chill:</div>
+                    <div class='value'><span id="windchill"></span>&deg;F</div>
+                    <div class="label">Humidity:</div>
+                    <div class='value'><span id="humidity"></span>%</div>
+                    <div class="label">Wind Speed:</div>
+                    <div class='value'><span id="windspeed">15</span>mph</div>
                 </div>
 
             </section>
@@ -66,32 +71,47 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Sat</th>
-                        <th>Sun</th>
-                        <th>Mon</th>
-                        <th>Tues</th>
-                        <th>Wed</th>
+                        <th id="dayforecast1"></th>
+                        <th id="dayforecast2"></th>
+                        <th id="dayforecast3"></th>
+                        <th id="dayforecast4"></th>
+                        <th id="dayforecast5"></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>
-                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 72&deg;F
+                            
+                            <img id="imgforecastday1" src="" alt="" class="forecast-image"><br>
+                            <p id="degreeforecast1"></p> &deg;F
                         </td>
                         <td>
-                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 77&deg;F </td>
-                        <td>
-                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 74&deg;F </td>
-                        <td>
-                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 73&deg;F
+                           
+                            <img id="imgforecastday2" src="" alt="" class="forecast-image"><br>
+                            <p id="degreeforecast2"></p> &deg;F
                         </td>
                         <td>
-                            <img src="images/logoicon.png" alt="sun" class="forecast-image"><br> 68&deg;F
+                            
+                            <img id="imgforecastday3" src="" alt="" class="forecast-image"><br>
+                            <p id="degreeforecast3"></p> &deg;F
+                        </td>
+                        <td>
+                            
+                            <img id="imgforecastday4" src="" alt="" class="forecast-image"><br>
+                            <p id="degreeforecast4"></p> &deg;F
+                        </td>
+                        <td>
+                          
+                            <img id="imgforecastday5" src=""alt="" class="forecast-image"><br>
+                            <p id="degreeforecast5"></p> &deg;F
                         </td>
 
                     </tr>
             </table>
         </div>
+        <br>
+        <h3>Current Events</h3>
+        <p><span id="PrestonCurrentEvents"></span></p>
         <br>
         <article>
             <section class="main-article">
@@ -145,8 +165,9 @@
 
 
     <footer>
+        <p>Weather information provided by <a href="https://openweathermap.org/">Open Weather Map</a></p>
         <p>&copy; 2019 The Weather Site | Attributions | Chelsie Hill | <span id="currentdate"></span></p>
-        
+
 
 
 
@@ -154,6 +175,10 @@
 
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
+    <script src="scripts/currentevents.js"></script>
+
+    <script src="scripts/weatherforecast.js"></script>
+    <script src="scripts/weathersummary.js"></script>
     <script src="scripts/windchill.js"></script>
 
 
