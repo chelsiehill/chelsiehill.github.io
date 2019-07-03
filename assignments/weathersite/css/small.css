@@ -426,7 +426,7 @@ form label.top input:required {
 }
 .homestormreport {
     color: #ffffff;
-    width: 600px;
+    max-width: 600px;
     height: 100px;
     margin: 0 auto;    
     background-color:#e0922e;
@@ -436,6 +436,7 @@ form label.top input:required {
     padding: 20px;
     box-shadow: 0 4px 8px 0 #40302c;   
     font-size: 20px;
+    position: relative;
         
 }
 #PrestonCurrentEvents {
@@ -451,5 +452,11 @@ form label.top input:required {
     box-shadow: 0 4px 8px 0 #40302c;   
     font-size: 20px;
     
+}
+.quote {
+    color: #e0922e;
+    font-size: 3em;
+    font: sans-serif;
+
 }
 
