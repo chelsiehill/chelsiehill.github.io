@@ -12,14 +12,7 @@ request.onload = function () {
     let output = document.querySelector('main');
 
     towns.forEach(town => {
-        if (town.name == 'Preston') {
-            document.getElementById("PrestonCurrentEvents").innerHTML = town.events;
-        }
-        else if (town.name == 'Soda Springs') {
-            document.getElementById("SodaSpringsCurrentEvents").innerHTML = town.events;
-        }
-        else (town.name == 'Fish Haven')
-        {
+        if (town.name == 'Fish Haven') {
             document.getElementById("FishHavenCurrentEvents").innerHTML = town.events;
         }
     }
