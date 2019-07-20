@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Temple Hotel Home Page</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Providing services and amenities for temple patrons in Maryland. ">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300%7cSlabo+27px&display=swap" rel="stylesheet">
+    <link href="css/normalize_min.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="container">
+        <img id="logoimage" class="flexItem" src="images/temple-logo.jpg" alt="Temple Hotel Logo">
+        <section class="flexItem">
+            <h1>Temple Hotel</h1>
+            <div class="flexItem">"Providing amenities and services for temple patrons!"</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="amenities.html">Amenities</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Full Time Temple Missionaries</h2>
+        <p>Finding a place to stay can be difficult when you are serving in the temple. That's why we created the
+            perfect accomodations for you! Our comfortable suites will help you feel at home when you are away.</p>
+        <ul>
+            <li>King size bed</li>
+            <li>Kitchenette complete with microwave, dishwasher, sink, and fridge</li>
+            <li>Jetted tub</li>
+            <li>Double vanity sinks</li>
+            <li>Desk with lamp</li>
+            <li>Sofa and chairs</li>
+            <li>Plus all the regular <a href="amenities.html">amenities</a> and <a href="amenities.html">services</a> we
+                have to offer!</li>
+        </ul>
+        <br>
+
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <h4>Questions/Comments</h4>
+                <label class="top">Full Name* <input type="text" name="fname" minlength="5" required></label><br>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label><br>
+                <label class="top">Phone Number* <input type="tel" name="phone" placeholder="1235551234"
+                        required></label><br>
+
+
+                <label class="top">Questions or comments</label><br><textarea rows="4" cols="40" name="comment">
+    </textarea>
+
+                <br>
+                <input class="button" type="submit" value="Send Information">
+            </fieldset>
+        </form>
+
+
+
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2019 Temple Hotel Site | Attributions | Chelsie Hill | <span id="currentdate"></span></p>
+
+    </footer>
+    <script src="scripts/json.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+
+
+
+</body>
+
+</html>

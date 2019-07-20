@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Temple Hotel Home Page</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Providing services and amenities for temple patrons in Maryland. ">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300%7cSlabo+27px&display=swap" rel="stylesheet">
+    <link href="css/normalize_min.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="container">
+        <img id="logoimage" class="flexItem" src="images/temple-logo.jpg" alt="Temple Hotel Logo">
+        <section class="flexItem">
+            <h1>Temple Hotel</h1>
+            <div class="flexItem">"Providing amenities and services for temple patrons!"</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="amenities.html">Amenities</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h2>Contact Us</h2>
+    <main>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197013294!2d-77.09772048428594!3d38.9832517795574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800+Montgomery+Ln+%23300%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1563570023795!5m2!1sen!2sus"
+            width="400" height="300" style="border:0" allowfullscreen></iframe>
+        <br>
+        <h3>Our Address</h3>
+        <p>4800 Montgomery Ln #300<br> Bethesda, MD 20814</p>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <h4>Questions/Comments</h4>
+                <label class="top">Full Name* <input type="text" name="fname" minlength="5"
+                        required></label><br>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label><br>
+                <label class="top">Phone Number* <input type="tel" name="phone" placeholder="1235551234"
+                        required></label><br>
+
+
+                <label class="top">Questions or comments</label><br><textarea rows="4" cols="40" name="comment">
+        </textarea>
+
+                <br>
+                <input class="button" type="submit" value="Send Information">
+            </fieldset>
+        </form>
+
+    </main>
+
+
+
+
+
+    <footer>
+
+        <p>&copy; 2019 Temple Hotel Site | Attributions | Chelsie Hill | <span id="currentdate"></span></p>
+
+    </footer>
+    <script src="scripts/json.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+
+
+
+</body>
+
+</html>

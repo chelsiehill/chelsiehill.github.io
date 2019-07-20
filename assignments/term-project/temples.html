@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Temple Hotel Home Page</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Providing services and amenities for temple patrons in Maryland. ">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300%7cSlabo+27px&display=swap" rel="stylesheet">
+    <link href="css/normalize_min.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="container">
+        <img id="logoimage" class="flexItem" src="images/temple-logo.jpg" alt="Temple Hotel Logo">
+        <section class="flexItem">
+            <h1>Temple Hotel</h1>
+            <div class="flexItem">"Providing amenities and services for temple patrons!"</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="temples.html" class="active">Temples</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="amenities.html">Amenities</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+
+
+        <section> <img class="temples" src="images/philadelphia-pennsylvania-temple.jpg"
+                alt="Philadelphia Pennsylvania Temple">
+            <h3>Philadelphia Pennsylvania Temple</h3>
+            <p>1739 Vine St</p>
+            <p>Philadelphia PA 19103</p>
+            <p>United States</p>
+            <p><strong>Phone:</strong>(1) 215-398-3040</p>
+            <p><strong>Email:</strong>temples@lds.org</p>
+            <p><strong>Services:</strong>Clothing rental available<br>
+                No cafeteria available<br>
+                No patron housing available<br>
+                No distribution center nearby</p>
+            <p><strong>History: </strong>Announced: <em>4 October 2008</em>
+                Groundbbreaking: <em>17 September 2011</em>
+                Dedicatory Prayer: <em>18 September 2016</em>
+            </p>
+            <p><strong>Sessions: </strong></p>
+            <p><strong>Current Weather: </strong> <span id="tempp">76</span>&deg;F</p>
+        </section><br>
+        <section> <img class="temples" src="images/raleigh-north-carolina-temple.jpg"
+                alt="Raleigh North Carolina Temple">
+            <h3>Raleigh North Carolina Temple</h3>
+            <p>574 Bryan Dr</p>
+            <p>Apex, NC 27502-4127</p>
+            <p>United States</p>
+            <p><strong>Phone:</strong>(1) 555-5555</p>
+            <p><strong>Email:</strong>temples@lds.org</p>
+            <p><strong>Services:</strong>No clothing rental available<br>
+                No cafeteria available<br>
+                No patron housing available<br>
+                No distribution center nearby</p>
+            <p><strong>History: </strong>Announced: <em>3 September 1998</em>
+                Groundbbreaking: <em>6 February 1999</em>
+                Dedicatory Prayer: <em>18 December 1999</em>
+            </p>
+            <p><strong>Sessions: </strong></p>
+            <p><strong>Current Weather: </strong> <span id="tempr">76</span>&deg;F</p>
+        </section><br>
+        <section> <img class="temples" src="images/manhattan-new-york-temple.jpg" alt="Manhatan New York Temple">
+
+            <h3>Manhattan New YorkTemple</h3>
+            <p>125 Columbus Ave, Fourth Floor</p>
+            <p>New York, NY 10023-6514</p>
+            <p>United States</p>
+            <p><strong>Phone:</strong>(1) 917-441-8220</p>
+            <p><strong>Email:</strong>temples@lds.org</p>
+            <p><strong>Services:</strong>Clothing rental available<br>
+                No cafeteria available<br>
+                No patron housing available<br>
+                Distribution center nearby</p>
+            <p><strong>History: </strong>Announced: <em>7 August 2002</em>
+                Groundbbreaking: <em>23 September 2002</em>
+                Dedicatory Prayer: <em>13 June 2004</em>
+            </p>
+            <p><strong>Sessions: </strong></p>
+            <p><strong>Current Weather: </strong><span id="tempm">76</span>&deg;F</p>
+        </section>
+        <section>
+            <img class="temples" src="images/washington-dc-temple.jpg" alt="Washington DC temple">
+            <h3>Washington D.C. Temple</h3>
+            <p>9900 Stoneybrook Dr</p>
+            <p>Kensington MD 20895-3199</p>
+            <p>United States </p>
+            <p><strong>Phone:</strong>(1) 301-588-0650</p>
+            <p><strong>Email:</strong>temples@lds.org</p>
+            <p><strong>Current Weather: </strong><span id="tempw">76</span>&deg;F</p>
+            <p><em>*Currently closed for renovation</em></p>
+        </section><br>
+
+    </main>
+
+
+
+
+
+
+    <footer>
+            <p>Weather information provided by <a href="https://openweathermap.org/">Open Weather Map</a></p>
+        <p>&copy; 2019 Temple Hotel Site | Attributions | Chelsie Hill | <span id="currentdate"></span></p>
+
+    </footer>
+    <script src="scripts/json.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+
+    <script src="scripts/manhattan-weather.js"></script>
+    <script src="scripts/philadelphia-weather.js"></script>
+    <script src="scripts/washington-dc-weather.js"></script>
+    <script src="scripts/raleigh-weather.js"></script>
+
+
+
+</body>
+
+</html>
